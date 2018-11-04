@@ -1,6 +1,6 @@
 from setuptools import setup
 
 setup(
-    name="originalpackfromgithub",
+    name="mypipgh",
     version="1.0.0"
 )
