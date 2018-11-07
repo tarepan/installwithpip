@@ -3,7 +3,7 @@ This is demo repository for "pip install git+githubURL".
 Try install **this repository** with super simple way as below!!  
 
 ```bash
-pip install git+https://github.com/tarepan/pipinstallgithub#egg=mypipgh&subdirectory=packs
+pip install "git+https://github.com/tarepan/pipinstallgithub#egg=mypipgh"
 ```
 
 then use the **mypipgh** package in python as below!!
@@ -17,4 +17,3 @@ hello()
 
 As common library repository, entire project page itself is not package.  
 Instead, **packs** subdirectory is distributable package.  
-If you prepare setup.py in repository root, you can export entire project as a package.
